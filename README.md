@@ -41,13 +41,13 @@ fastapi run app/main.py --port 8000
 
 ## Docker
 ```bash
-docker build -t lke-dbaas-acl-sync-service:latest .
+docker build -t lke-dbaas-acl-sync-service-demo:latest .
 docker run -p 8000:8000 \
         --env-file .env \
         -v ~/.kube/config:/etc/kubeconfig \
         -e KUBECONFIG=/etc/kubeconfig \
         --name lke-dbaas-acl-sync-service \
-        lke-dbaas-acl-sync-service:latest
+        lke-dbaas-acl-sync-service-demo:latest
 ```
 
 ## Kubernetes
