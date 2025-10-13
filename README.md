@@ -1,7 +1,7 @@
 # LKE DBaaS ACL Syncer Demo
 ### THIS REPO IS FOR DEMONSTRATION PURPOSES ##
 
-A service that add LKE node IP addresses t the allow list for a given of list of Linode Managed Database (PostgreSQL or MySQL) clusters.
+A service that adds LKE node IP addresses t the allow list for a given of list of Linode Managed Database (PostgreSQL or MySQL) clusters.
 
 ## Features
 
